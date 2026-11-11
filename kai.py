@@ -15,7 +15,6 @@ while True:
     elif action == "1":
         name_books = input("введи название книги: ")
         name_author = input("введи имя автора")
-        print(name_books, name_author)
         book = {
             "title": name_books,
             "author": name_author
@@ -75,7 +74,7 @@ while True:
                     print("книга успешна обнавлена")
             except ValueError:
                 print("тут может быть только число")
-    if action == "5":
+    eiif action == "5":
         if books == []:
             print("библиотека пустая")
         else:
